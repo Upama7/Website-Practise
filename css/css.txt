@@ -1,0 +1,88 @@
+order matters in css.
+h1 {
+	color:red;
+}
+
+h1 {
+	color:purple;
+}
+
+
+
+
+
+Specificity
+It defines which rule to apply when there is conflict.
+ID > CLASS > ELEMENT 
+0 > 0 > 2
+
+section p {
+	color: teal;
+}
+Id selector > class attribute & pseudo-class selectors > elememts & pseudo-element selectors
+
+nav a.active {
+	color: ornage;
+}
+0 >  1 > 2
+
+
+inline styles and imortant 
+Inline styles > Id selector > class attribute & pseudo-class selector
+
+!important
+
+
+padding / margin
+apply all side 
+padding : 10px:
+
+vertical | horizontal
+padding : 5px 10px;
+
+top | horinzontal | bottom 
+padding: 1px 2px 2px
+
+top | right | bottom | left 
+padding: 5px 1px 0 2px
+
+-------------------------------------------------------------------------------------------
+
+inline & block elements
+inline =  fit alongside other element 
+block  =  takes whole block of space 
+
+display property
+inline = width height ignored, margin & padding push elements away 
+		horizontally but not vertically
+
+block  = break flow of a document, width height margin and 
+		padding are respected.
+
+inline-block = act like inline but all four are respected.
+
+---------------------------------------------------------------------------------------------------
+
+em = font size double of parent size
+
+rem = relative to the root html elements font size. If the root is 20px 1rem is always 20px and 2rem is 20px.
+
+-----------------------------------------------------------------------------------------------------
+
+
+ rgba and opacity
+
+rgba = red green black alpha
+other element are not impact
+
+opacity 
+it takes action on all the elements
+
+
+
+
+
+
+
+
+

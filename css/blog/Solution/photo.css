@@ -1,0 +1,16 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    /* margin: 1.5%;*/
+}
+
+nav {
+    font-family: 'Fascinate', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid wheat;
+    width: 30%;
+    margin-left: 1.5%;
+    padding: 1.2em 0;
+}

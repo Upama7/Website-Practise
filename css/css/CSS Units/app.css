@@ -1,0 +1,41 @@
+section {
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+}
+
+div {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;  /*it will be 200% of font size or its parent element  */ 
+}
+
+h2 {
+    font-size: 2em; /*it will have twice the size of its parent which is article  1em = parent font size 2em=twice*/
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+  font-size: 0.8em;  
+}
+
+article {
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 15px;
+    background-color: green;
+    color: aliceblue;
+}

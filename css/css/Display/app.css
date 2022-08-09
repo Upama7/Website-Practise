@@ -1,0 +1,31 @@
+h1 {
+    background-color: grey;
+    border : 1px solid black;
+    width: 300px;
+    padding: 50px;
+    margin: 50px;
+}
+
+/*span {
+    background-color: aqua;
+    border: 1px solid black;
+    display: block;
+}
+*/
+span {
+   background-color: violet;
+   border: 1px solod black ; 
+   width: 500px;
+   padding: 10px;
+   margin: 50px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 50px;
+}
+

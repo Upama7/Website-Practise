@@ -1,0 +1,94 @@
+/** {
+    background-color: aqua;
+}*/
+
+/*element selector */
+
+button {
+    font-size: 40px;
+    background-color: rgb(255, 214, 173);
+}
+
+h1,
+h2 {
+    color: blueviolet;
+}
+
+/*Id selectors */
+#signup {
+    background-color: aquamarine;
+}
+
+
+span {
+    color: brown;
+}
+
+.tag {
+    background-color: palevioletred;
+    color: yellowgreen;
+    font-size: 25px;
+}
+
+/*element selector + element selector , descendant selector */
+
+span a {
+    color: yellow;
+}
+
+section h1 {
+    color: olive;
+}
+
+input+button {
+    background-color: pink;
+}
+
+h1+button {
+    background-color: red;
+}
+
+footer>a {
+    color: pink;
+}
+
+/* attribute selector */
+input[type="password"] {
+    color: greenyellow;
+}
+
+section[class="post"] {
+    color: purple;
+}
+
+button:hover {
+    color: orangered
+}
+
+/*pseudo classes */
+
+button:active {
+    background-color: black
+}
+
+.post:nth-of-type(2) {
+    background-color: green
+}
+
+/*pseudo elements */
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::selection {
+    background-color: yellow;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 50px;
+}
