@@ -19,6 +19,8 @@ function singSong() {
 
 
 //function with arguments 
-function Greet (firstName) {
+function Greet(firstName) {
     console.log(`First Name is: ${firstName}`);
 }
+
+//firstname hold value that we pass on random
