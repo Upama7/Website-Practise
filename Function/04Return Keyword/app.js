@@ -7,3 +7,8 @@ function add (x , y) {
 }
 
 //there are two return but return run only one time / it can return only one value 
+
+
+
+// add(add(1,2),5);
+

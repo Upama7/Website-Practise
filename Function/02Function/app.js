@@ -18,6 +18,8 @@ function singSong() {
 
 
 
+
+
 //function with arguments 
 function Greet(firstName) {
     console.log(`First Name is: ${firstName}`);

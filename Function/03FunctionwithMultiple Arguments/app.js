@@ -1,4 +1,4 @@
-//function to pass two arguments
+//function to pass two arguments and print first letter of lastname
 function greet (firstName, lastName) {
     console.log(`Hi there, ${firstName} ${lastName[0]}.`) //0 represent the index of first letter of last name and choose that letter only 
 }
@@ -19,6 +19,19 @@ function repeat (str, numTimes){
 }
 
 //result str= % numTimes = 5 it gives %%%%%
+
+
+
+
+function double (string, num) {
+    let total = '';
+    for (let i = 0; i < num; i++){
+        total += string
+    }
+    return total;
+}
+
+
     
 
 
